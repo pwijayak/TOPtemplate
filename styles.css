@@ -1,0 +1,79 @@
+header, footer{
+    background-color: #1f2937;
+}
+
+header h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9Faf8 ;
+}
+
+header h2{
+    font-size: 24px;
+    color: #F9FaF8
+}
+
+header span, header link{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+body *{
+    font-family: 'Roboto', sans-serif;
+}
+
+button, .action{
+    background-color: #3882f6;
+}
+
+.two h3{
+    font: 36px lighter italic #1F2937
+}
+
+.two{
+    background-color:#E5E7EB
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+li{
+
+    padding-left: 10px
+}
+
+
+nav, .links{
+    display:flex;
+    justify-content: space-between;
+}
+
+a{
+    color:white;
+    justify-content: space-around;
+}
+
+.zero{
+    display:flex;
+    justify-content: space-between;
+}
+   
+
+
+.zero>div{
+    
+    width:45%;
+
+}
+
+.img1{
+    width:70%
+}
+
+header{
+    padding-left:10px;
+}
