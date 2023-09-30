@@ -180,3 +180,77 @@ footer{
     color:white
 }
 
+
+@media screen and (max-width:481px){
+
+   body, header,  section{
+        width:100vh;
+        height: 700px;
+    
+        
+    }
+
+    footer{
+        height:auto
+    }
+
+    header *{
+        width:100%
+
+    }
+
+    .two p{
+        font-size: 1.5em;
+        align-items: center;
+    }
+
+
+ .img-container{
+display:grid;
+grid-template-columns: 1fr 1fr ;
+
+
+ }
+
+ .img-container>div{
+    width:100%;
+    
+ }
+
+.img-container span{
+    font-size:1.5em
+ }
+
+
+.div2 img{
+    display:none;
+   
+}
+ .div2{
+    width: 0em !important;
+
+}
+.tweak{
+    padding:0
+}
+
+.zero .div1{
+    width:100vw;
+    text-align: left;
+}
+
+.zero h1{
+
+    font-size:4.5em;
+    
+}
+
+.zero span{
+    font-size:1.2em;
+}
+
+}
+
+
+
+
